@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          We can move to the next step.
+          React App on AWS with CI/CD.
         </p>
         <a
           className="App-link"
