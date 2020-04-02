@@ -5,4 +5,4 @@ before_install:
      # Tag your image with -t 
      - docker build -t ridaba/docker-react -f Dockerfile.dev .
 script:
-   -  docker run ridaba/docker-react npm run test -- --coverage
+   -  docker run -e CI=true ridaba/docker-react npm run test -- --coverage
