@@ -17,6 +17,7 @@ function App() {
         >
           Visit Vaudoise Assurances
         </a>
+        </p>
       </header>
     </div>
   );
