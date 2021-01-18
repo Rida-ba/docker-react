@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={devops} className="App-logo" alt="logo" />
         <p>
-          Welcome to React App on AWS with CI/CD pipeline.
+         Test web app.
         <a
           className="App-link"
           href="https://www.vaudoise.ch/fr"
