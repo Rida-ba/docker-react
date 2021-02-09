@@ -8,14 +8,14 @@ function App() {
       <header className="App-header">
         <img src={devops} className="App-logo" alt="logo" />
         <p>
-         Test web app.
+         Test deploy web app.
         <a
           className="App-link"
-          href="https://www.vaudoise.ch/fr"
+          href="https://www.accenture.com/ch-en"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Visit Vaudoise Assurances
+          Visit Accenture
         </a>
         </p>
       </header>
