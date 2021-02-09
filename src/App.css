@@ -9,6 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
+    color: #ee76ee;
     animation: App-logo-spin infinite 20s linear;
   }
 }
