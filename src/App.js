@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={devops} className="App-logo" alt="logo" />
         <p>
-         Test deploy web app with CI/CD (Git, Travis and AWS) /n
+         Test deploy web app with CI/CD (Git, Travis and AWS) \n
         <a
           className="App-link"
           href="https://www.accenture.com/ch-en"
