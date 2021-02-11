@@ -8,14 +8,16 @@ function App() {
       <header className="App-header">
         <img src={devops} className="App-logo" alt="logo" />
         <p>
-         Test deploy web app with CI/CD (Git, Travis and AWS) \n
+          Deploy a web app with CI/CD (Git, Travis CI and AWS)
+        </p>
+        <p>
         <a
           className="App-link"
-          href="https://www.accenture.com/ch-en"
+          href="https://github.com/Rida-ba/docker-react.git"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Visit Accenture
+          Visit my Repositorie
         </a>
         </p>
       </header>
