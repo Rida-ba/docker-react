@@ -8,6 +8,9 @@ function App() {
       <header className="App-header">
         <img src={devops} className="App-logo" alt="logo" />
         <p>
+          Welcome SRG SSR and Thank you !
+        </p>
+        <p>
           Deploy a web app with CI/CD (Git, Travis CI and AWS)
         </p>
         <p>
