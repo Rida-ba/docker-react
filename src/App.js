@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={devops} className="App-logo" alt="logo" />
         <p>
-          Welcome Pictet and Thank you !
+          Welcome Pictet and Thank you for listening !
         </p>
         <p>
           Deploy a web app with CI/CD (Git, Travis CI and AWS)
