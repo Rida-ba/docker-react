@@ -1,5 +1,5 @@
 import React from 'react';
-import devops from './devops.svg';
+import devops from './logo.svg';
 import './App.css';
 
 function App() {
