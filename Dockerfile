@@ -1,11 +1,13 @@
-#Specify a base image
-FROM node:alpine
-#Specify working directory
-WORKDIR '/app'
-#Specify dependencies
+#The first phase (Building phase)
+FROM node:alpine as builder
+WORKDIR /app
 COPY package*.json ./
 RUN yarn install
 COPY . .
-#Run default command
-CMD ["yarn","run","start"]
+RUN yarn run build
+#The second phase (Running phase)
+FROM nginx
+EXPOSE 80 
+# For Elastic beanstalk
+COPY --from=builder /app/build /usr/share/nginx/html
 
