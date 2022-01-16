@@ -13,7 +13,7 @@ deploy:
      # Copy and paste your region from Docker-react.eba-mhc7ft6t.eu-west-3.elasticbeanstalk.com
      region: "eu-west-3"
      app: "Docker-Web"
-     env: "Dockerweb-env"
+     env: "Dockerweb-env-1"
      # Search your S3 created by Elastic Beanstalk
      bucket_name: "elasticbeanstalk-eu-west-3-733030400647"
      bucket_path: "docker"
