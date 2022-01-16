@@ -18,6 +18,6 @@ services:
         volumes:
             - /app/nodes_modules
             - .:/app/
-        command: ["npm", "run", "test"]
+        command: ["yarn", "run", "test"]
         stdin_open: true
         
